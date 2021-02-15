@@ -15,7 +15,6 @@ p {
 }
 
 #img-div {
-  max-width: none;
   background-color: white;
   border-radius: 2rem;
   text-align: center;
@@ -24,7 +23,10 @@ p {
 }
 
 #image {
-  padding: 10px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 
 h3 {
